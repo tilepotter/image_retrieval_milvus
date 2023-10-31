@@ -1,0 +1,7 @@
+pymilvus==2.3.1
+minio==7.1.17
+pre-request==2.1.5
+Flask==2.0.2
+Flask_Cors==3.0.6
+requests==2.26.0
+numpy==1.21.0
