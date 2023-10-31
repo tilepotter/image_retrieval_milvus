@@ -102,7 +102,7 @@ docker-compose  up -d
 
 访问`attu web` 可视化界面：`http://ip:8001/`，可看到如下界面：
 
-![img](D:\IdeaWorkSpace\pycharm-project\image_retrieval_milvus\assert\img.png)
+![img](https://github.com/tilepotter/image_retrieval_milvus/blob/main/assert/img.png?raw=true)
 
 
 
@@ -118,7 +118,7 @@ pip install -r requirements.txt
 
 修改`milvus/save_feature_vector_to_milvus.py`文件中的配置信息，包括`Milvus`的 ip 和 端口，对象存储的相关配置，以及需要初始化的图片集路径：
 
-![img_1](D:\IdeaWorkSpace\pycharm-project\image_retrieval_milvus\assert\img_1.png)
+![img_1](https://github.com/tilepotter/image_retrieval_milvus/blob/main/assert/img_1.png?raw=true))
 
 运行该 python 文件，会调用 vgg 模型后端服务接口，提取指定路径下的图片集的特征向量，并将特征向量写入 Milvus，图片本身存储至  MinIO：
 
@@ -138,7 +138,7 @@ python3.8 server.py
 
 使用 postman 测试检索接口如下：
 
-![img_2](D:\IdeaWorkSpace\pycharm-project\image_retrieval_milvus\assert\img_2.png)
+![img_2](https://github.com/tilepotter/image_retrieval_milvus/blob/main/assert/img_2.png?raw=true))
 
 请求参数释义：
 
